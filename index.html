@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Bem-Vindo(a)</title>
+    </head>
+    <body>
+        <h1>Introdução ao HTML</h1>
+        <hr />
+        <h2 id="inicio">Índice</h2>
+        <ul>
+            <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#tags">Falando sobre tags</a></li>
+            <li><a href="#atributos">Atributos das tags</a></li>
+            <li><a href="#textos">Textos e Conteúdos</a></li>
+            <li><a href="#listas">Listas(Ordenadas e Não Ordenadas)</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+
+        <h2 id="estrutura">Estrutura Básica do HTML</h2>
+        <small><a href="#inicio">(voltar)</a></small>
+        <p>O documento HTML se inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável. Sempre que quiser codar em HTML, você sempre começará dessa forma e por esse código. Veja abaixo como a estrutura se inicia:</p>
+        <pre class="lang-html prettyprint linenums"><ol class="linenums"><li class="L0"><span class="dec">&lt;!DOCTYPE html&gt;</span></li><li class="L1"><span class="tag">&lt;html</span><span class="pln"> </span><span class="atn">lang</span><span class="pun">=</span><span class="atv">"pt-br"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;head&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;title&gt;</span><span class="pln">Título da página</span><span class="tag">&lt;/title&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;meta</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"utf-8"</span><span class="tag">&gt;</span></li><li class="L5"><span class="pln">  </span><span class="tag">&lt;/head&gt;</span></li><li class="L6"><span class="pln">  </span><span class="tag">&lt;body&gt;</span></li><li class="L7"><span class="pln">    Aqui vai o código HTML que fará seu site aparecer.</span></li><li class="L8"><span class="pln">  </span><span class="tag">&lt;/body&gt;</span></li><li class="L9"><span class="tag">&lt;/html&gt;</span></li></ol></pre>
+        <p>O <strong>HEAD</strong> representa o cabeçalho de um documento. Diferentemente do conteúdo exibido no navegador, o conteúdo dentro dessa tag não aparece na página quando ela é carregada. Em vez disso, o cabeçalho contém metadados sobre o documento.</p>
+        <p>O <strong>BODY</strong> representa o corpo de um documento. Diferentemente do conteúdo exibido no navegador, o conteúdo dentro dessa tag é o que aparece na página quando ela é carregada.</p>
+        
+        <h2 id="tags">Falando sobre Tags</h2>
+        <small><a href="#inicio">(voltar)</a></small>
+        <p>As tags geralmente vêm em pares, com uma tag de abertura "< tag >" e uma tag de fechamento "< / tag >". Algumas tags são auto-fecháveis e têm a forma "< tag />". Existem tags para diferentes propósitos, como < strong > para deixar um texto em negrito, < i > para itálico, < input > para abrir um campo de texto para o usuário, < img > para inserir imagens na página. </tag></p>
+        
+        <h2 id="atributos"> Atributos das Tags</h2>
+        <small><a href="#inicio">(voltar)</a></small>
+        <p>As tags podem ter atributos que fornecem informações adicionais ou modificam seu comportamento. Existem atributos globais (que funcionam em todas as Tags) e específicos (que são direcionados para cada Tag, através de especificação). Os Atributos possuem nome e um valor, existem Atributos que você vai usar praticamente sempre e existem outros que serão mais raros.</p>
+        <p>Se você utilizar o Visual Studio Code, ao abrir uma tag, a própria IDE já te sugere alguns atributos que podem ser inseridos naquela tag, a fim de facilitar o desenvolvimento do código. </p>
+
+        <h2 id="textos">Textos e Conteúdos</h2>
+        <small><a href="#inicio">(voltar)</a></small>
+        <p>Agora que você já conhece as principais tags estruturais, pode organizar o seu conteúdo de forma adequada. Assim sendo, vamos listar as principais tags para incluir conteúdo à página, como títulos, parágrafos, etc. As tags de texto definem textos, estilos de fonte, parágrafos, spans, quebras de linhas, etc.</p>
+        <p>As tags "< h1 >" a "< h6 >" definem tamanho dos títulos inseridos em sua página. Algumas tags a mais podem ser vistas na imagem abaixo.</p>
+        <img width="500" src="https://slideplayer.com.br/slide/13198730/79/images/8/HTML+Tags+de+Formata%C3%A7%C3%A3o.jpg" alt="">
+
+        <h2 id="listas">Listas</h2>
+        <small><a href="#inicio">(voltar)</a></small>
+        <p>As listas em HTML podem ser listas ordenadas e listas não ordenadas. As características de cada uma podem ser vistas abaixo:</p>
+        <p>As <strong>Listas Ordenadas</strong> são usadas para criar listas com uma sequência específica, onde cada item é numerado automaticamente.</p>
+        <p>As <strong>Listas Não Ordenadas</strong> são usadas para listas sem uma ordem específica, marcadas com bullets.</p>
+        
+        <h2 id="links">Links</h2>
+        <small><a href="#inicio">(voltar)</a></small>
+        <p>Os links em HTML são criados usando a tag "< a >", que é a abreviação de “âncora”. Eles são fundamentais para a navegação na web, permitindo que os usuários cliquem e sejam redirecionados para outra página, documento ou recurso. </p>
+        <ul>
+            <li>Sintaxe Básica: Para criar um link, você usa a tag < a > com o atributo href, que especifica o URL do destino.</li>
+            <li>Âncoras: Você também pode criar links para seções específicas dentro da mesma página usando âncoras, basta preencher o href com "#idDoElementoAqui". </li>
+        </ul>
+
+    </body>
+</html>
